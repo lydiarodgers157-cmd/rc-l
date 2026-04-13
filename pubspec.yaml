@@ -1,0 +1,48 @@
+name: psychology_diary
+description: 心理学日程日记APP - 时间追踪与行为觉察
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 数据库
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # 图表
+  fl_chart: ^0.66.0
+  
+  # UI组件
+  cupertino_icons: ^1.0.6
+  intl: ^0.18.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  table_calendar: ^3.0.9
+  
+  # 图标
+  flutter_slidable: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
